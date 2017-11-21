@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dropdown menu</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+
+        /* CSS reset => Wish you were here... */
+
+        .menu {
+            display: block;
+            clear: both;
+        }
+
+        .submenu {
+            display: none;
+            position: absolute;
+            padding: 0;
+        }
+
+        .menu__item {
+            float: left;
+        }
+
+        .menu__item, .submenu__item {
+            display: block;
+            cursor: pointer;
+        }
+
+        .menu__item:hover .submenu {
+            display: block;
+        }
+
+        .menu__item__link, .submenu__item__link {
+            display: block;
+            padding: 10px;
+            background-color: #eee;
+        }
+
+        .menu__item__link:hover, .submenu__item__link:hover {
+            background-color: #ddd;
+        }
+
+        </style>
+    </head>
+    <body>
+        <ul class="menu">
+            <li class="menu__item">
+                <a class="menu__item__link">Menu link</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a class="menu__item__link">Menu link</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a class="menu__item__link">Menu link</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <br/>
+        <br/>
+        <ul class="menu">
+            <li class="menu__item">
+                <a class="menu__item__link">Menu link</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a class="menu__item__link">Menu link</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__item">
+                <a class="menu__item__link">Menu link</a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a class="submenu__item__link">Submenu link</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>
